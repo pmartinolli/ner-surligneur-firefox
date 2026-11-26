@@ -1,0 +1,57 @@
+{
+  "manifest_version": 3,
+  "name": "NER_surligneur",
+  "short_name": "NER_hlight",
+  "version": "1.1.0",
+  "description": "Named entities recogition on a webpage, with only local processing and no web connection. Highlighting, selecting and exporting in CSV the entities you choose : people, institutions, events, works, places, dates, other.",
+  "default_locale": "en",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ner-surligneur@bib.umontreal.ca",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "type": "module"
+  },
+  "action": {
+    "default_title": "__MSG_extShortName__",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "commands": {
+    "analyze-page": {
+      "suggested_key": {
+        "default": "Alt+Shift+E"
+      },
+      "description": "__MSG_cmdAnalyze__"
+    }
+  }
+}

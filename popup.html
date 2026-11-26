@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title data-i18n="extShortName">Named entities</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="icons/icon32.png" alt="" width="22" height="22">
+    <h1 data-i18n="extShortName">Named entities</h1>
+  </header>
+
+  <section>
+    <h2 data-i18n="popupTypesHeading">Entities to detect</h2>
+    <div id="types" class="types"></div>
+  </section>
+
+  <section class="opts">
+    <label class="line"><input type="checkbox" id="showBoxes"> <span data-i18n="popupShowBoxes">Show a checkbox after each entity</span></label>
+    <label class="line"><span data-i18n="popupSep">CSV separator</span>
+      <select id="sep">
+        <option value="," data-i18n="sepComma">Comma ( , )</option>
+        <option value=";" data-i18n="sepSemicolon">Semicolon ( ; )</option>
+        <option value="tab" data-i18n="sepTab">Tab</option>
+      </select>
+    </label>
+  </section>
+
+  <div class="buttons">
+    <button id="analyze" class="primary" data-i18n="btnAnalyze">Analyze this page</button>
+    <button id="clear" data-i18n="btnClear">Clear</button>
+  </div>
+  <div class="buttons">
+    <button id="exportSel" data-i18n="btnExportSel">Export selection</button>
+    <button id="exportAll" data-i18n="btnExportAll">Export all</button>
+  </div>
+
+  <p id="status" role="status"></p>
+  <p class="hint" data-i18n="popupHint">Shortcut: Alt+Shift+E · 100% local analysis, nothing is sent to the Internet.</p>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

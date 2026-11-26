@@ -1,0 +1,206 @@
+{
+  "extName": {
+    "message": "Surligneur d'entités nommées"
+  },
+  "extShortName": {
+    "message": "Entités nommées"
+  },
+  "extDescription": {
+    "message": "Repère et surligne les entités nommées (personnes, œuvres, institutions, lieux, événements, dates) de la page et les exporte en CSV. 100 % local."
+  },
+  "cmdAnalyze": {
+    "message": "Analyser la page en cours"
+  },
+  "typePerson": {
+    "message": "Personnes"
+  },
+  "typePersonOne": {
+    "message": "Personne"
+  },
+  "typeWork": {
+    "message": "Œuvres"
+  },
+  "typeWorkOne": {
+    "message": "Œuvre"
+  },
+  "typeOrg": {
+    "message": "Institutions"
+  },
+  "typeOrgOne": {
+    "message": "Institution"
+  },
+  "typePlace": {
+    "message": "Lieux"
+  },
+  "typePlaceOne": {
+    "message": "Lieu"
+  },
+  "typeEvent": {
+    "message": "Événements"
+  },
+  "typeEventOne": {
+    "message": "Événement"
+  },
+  "typeDate": {
+    "message": "Dates"
+  },
+  "typeDateOne": {
+    "message": "Date"
+  },
+  "typeOther": {
+    "message": "Autres"
+  },
+  "typeOtherOne": {
+    "message": "Autre"
+  },
+  "popupTypesHeading": {
+    "message": "Entités à repérer"
+  },
+  "popupShowBoxes": {
+    "message": "Afficher une coche après chaque entité"
+  },
+  "popupSep": {
+    "message": "Séparateur CSV"
+  },
+  "sepComma": {
+    "message": "Virgule ( , )"
+  },
+  "sepSemicolon": {
+    "message": "Point-virgule ( ; ) — Excel en français"
+  },
+  "sepTab": {
+    "message": "Tabulation"
+  },
+  "btnAnalyze": {
+    "message": "Analyser cette page"
+  },
+  "btnClear": {
+    "message": "Effacer"
+  },
+  "btnExportSel": {
+    "message": "Exporter la sélection"
+  },
+  "btnExportSelN": {
+    "message": "Exporter la sélection ($1)"
+  },
+  "btnExportAll": {
+    "message": "Tout exporter"
+  },
+  "popupHint": {
+    "message": "Raccourci : Alt+Maj+E · Analyse 100 % locale, rien n'est envoyé sur Internet."
+  },
+  "statusAnalyzing": {
+    "message": "Analyse en cours…"
+  },
+  "statusResult": {
+    "message": "Entités affichées : $1 · occurrences : $2 · $3 ms"
+  },
+  "statusCleared": {
+    "message": "Surlignages retirés."
+  },
+  "statusExportStarted": {
+    "message": "Export lancé (voir le panneau dans la page)."
+  },
+  "statusAnalyzeFirst": {
+    "message": "Analysez d'abord la page."
+  },
+  "errRestricted": {
+    "message": "Chrome interdit aux extensions d'agir sur cette page (pages chrome://, Chrome Web Store, etc.)."
+  },
+  "errFile": {
+    "message": "Pour les fichiers locaux, activez « Autoriser l'accès aux URL de fichier » dans les détails de l'extension (chrome://extensions)."
+  },
+  "errGeneric": {
+    "message": "Erreur : $1"
+  },
+  "panelExportAllTitle": {
+    "message": "Exporter en CSV toutes les entités des types cochés"
+  },
+  "panelMin": {
+    "message": "Réduire / agrandir"
+  },
+  "panelClose": {
+    "message": "Fermer et retirer les surlignages"
+  },
+  "panelFilter": {
+    "message": "Filtrer la liste…"
+  },
+  "panelCheckAll": {
+    "message": "Tout cocher"
+  },
+  "panelCheckAllTitle": {
+    "message": "Cocher toutes les entités affichées"
+  },
+  "panelUncheckAll": {
+    "message": "Aucune"
+  },
+  "panelUncheckAllTitle": {
+    "message": "Décocher toutes les entités affichées"
+  },
+  "panelRescan": {
+    "message": "Relancer"
+  },
+  "panelRescanTitle": {
+    "message": "Relancer l'analyse (utile si la page a changé)"
+  },
+  "panelExportSelTitle": {
+    "message": "Exporter en CSV les entités cochées"
+  },
+  "panelSelected": {
+    "message": "Cochées : $1 sur $2"
+  },
+  "panelEmptyFilter": {
+    "message": "Aucune entité pour ces critères."
+  },
+  "panelEmptyPage": {
+    "message": "Aucune entité trouvée sur cette page."
+  },
+  "rowCheckTitle": {
+    "message": "Sélectionner pour l'export"
+  },
+  "rowNameTitle": {
+    "message": "Afficher dans la page (cliquer à nouveau pour l'occurrence suivante)"
+  },
+  "rowSelectTitle": {
+    "message": "Corriger le type ou ignorer cette entité"
+  },
+  "rowIgnore": {
+    "message": "✕ Ignorer"
+  },
+  "boxTitle": {
+    "message": "Cocher « $1 » ($2) pour l'exporter"
+  },
+  "toastNoneChecked": {
+    "message": "Aucune entité cochée. Cochez des entités dans la page ou dans la liste."
+  },
+  "toastNone": {
+    "message": "Aucune entité à exporter."
+  },
+  "toastExported": {
+    "message": "Entités exportées : $1 → $2"
+  },
+  "toastOccurrence": {
+    "message": "« $1 » : occurrence $2 sur $3"
+  },
+  "toastAnalysis": {
+    "message": "Entités distinctes : $1, occurrences : $2 ($3 ms)"
+  },
+  "csvEntity": {
+    "message": "Entité"
+  },
+  "csvType": {
+    "message": "Type"
+  },
+  "csvOccurrences": {
+    "message": "Occurrences"
+  },
+  "csvPage": {
+    "message": "Page"
+  },
+  "filePrefixSel": {
+    "message": "entites_selection"
+  },
+  "filePrefixAll": {
+    "message": "entites_toutes"
+  }
+}

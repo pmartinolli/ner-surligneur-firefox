@@ -1,0 +1,206 @@
+{
+  "extName": {
+    "message": "Named Entity Highlighter"
+  },
+  "extShortName": {
+    "message": "Named entities"
+  },
+  "extDescription": {
+    "message": "Finds and highlights named entities (people, works, institutions, places, events, dates) on the page and exports them to CSV. 100% local."
+  },
+  "cmdAnalyze": {
+    "message": "Analyze the current page"
+  },
+  "typePerson": {
+    "message": "People"
+  },
+  "typePersonOne": {
+    "message": "Person"
+  },
+  "typeWork": {
+    "message": "Works"
+  },
+  "typeWorkOne": {
+    "message": "Work"
+  },
+  "typeOrg": {
+    "message": "Institutions"
+  },
+  "typeOrgOne": {
+    "message": "Institution"
+  },
+  "typePlace": {
+    "message": "Places"
+  },
+  "typePlaceOne": {
+    "message": "Place"
+  },
+  "typeEvent": {
+    "message": "Events"
+  },
+  "typeEventOne": {
+    "message": "Event"
+  },
+  "typeDate": {
+    "message": "Dates"
+  },
+  "typeDateOne": {
+    "message": "Date"
+  },
+  "typeOther": {
+    "message": "Other"
+  },
+  "typeOtherOne": {
+    "message": "Other"
+  },
+  "popupTypesHeading": {
+    "message": "Entities to detect"
+  },
+  "popupShowBoxes": {
+    "message": "Show a checkbox after each entity"
+  },
+  "popupSep": {
+    "message": "CSV separator"
+  },
+  "sepComma": {
+    "message": "Comma ( , )"
+  },
+  "sepSemicolon": {
+    "message": "Semicolon ( ; )"
+  },
+  "sepTab": {
+    "message": "Tab"
+  },
+  "btnAnalyze": {
+    "message": "Analyze this page"
+  },
+  "btnClear": {
+    "message": "Clear"
+  },
+  "btnExportSel": {
+    "message": "Export selection"
+  },
+  "btnExportSelN": {
+    "message": "Export selection ($1)"
+  },
+  "btnExportAll": {
+    "message": "Export all"
+  },
+  "popupHint": {
+    "message": "Shortcut: Alt+Shift+E · 100% local analysis, nothing is sent to the Internet."
+  },
+  "statusAnalyzing": {
+    "message": "Analyzing…"
+  },
+  "statusResult": {
+    "message": "Entities shown: $1 · occurrences: $2 · $3 ms"
+  },
+  "statusCleared": {
+    "message": "Highlights removed."
+  },
+  "statusExportStarted": {
+    "message": "Export started (see the panel on the page)."
+  },
+  "statusAnalyzeFirst": {
+    "message": "Analyze the page first."
+  },
+  "errRestricted": {
+    "message": "Chrome does not allow extensions to run on this page (chrome:// pages, Chrome Web Store, etc.)."
+  },
+  "errFile": {
+    "message": "For local files, enable “Allow access to file URLs” in the extension details (chrome://extensions)."
+  },
+  "errGeneric": {
+    "message": "Error: $1"
+  },
+  "panelExportAllTitle": {
+    "message": "Export all entities of the checked types to CSV"
+  },
+  "panelMin": {
+    "message": "Minimize / expand"
+  },
+  "panelClose": {
+    "message": "Close and remove highlights"
+  },
+  "panelFilter": {
+    "message": "Filter the list…"
+  },
+  "panelCheckAll": {
+    "message": "Check all"
+  },
+  "panelCheckAllTitle": {
+    "message": "Check all listed entities"
+  },
+  "panelUncheckAll": {
+    "message": "None"
+  },
+  "panelUncheckAllTitle": {
+    "message": "Uncheck all listed entities"
+  },
+  "panelRescan": {
+    "message": "Rescan"
+  },
+  "panelRescanTitle": {
+    "message": "Run the analysis again (useful if the page has changed)"
+  },
+  "panelExportSelTitle": {
+    "message": "Export the checked entities to CSV"
+  },
+  "panelSelected": {
+    "message": "$1 checked of $2"
+  },
+  "panelEmptyFilter": {
+    "message": "No entity matches these criteria."
+  },
+  "panelEmptyPage": {
+    "message": "No entity found on this page."
+  },
+  "rowCheckTitle": {
+    "message": "Select for export"
+  },
+  "rowNameTitle": {
+    "message": "Show in the page (click again for the next occurrence)"
+  },
+  "rowSelectTitle": {
+    "message": "Correct the type or ignore this entity"
+  },
+  "rowIgnore": {
+    "message": "✕ Ignore"
+  },
+  "boxTitle": {
+    "message": "Check “$1” ($2) for export"
+  },
+  "toastNoneChecked": {
+    "message": "No entity checked. Check entities in the page or in the list."
+  },
+  "toastNone": {
+    "message": "No entity to export."
+  },
+  "toastExported": {
+    "message": "Entities exported: $1 → $2"
+  },
+  "toastOccurrence": {
+    "message": "“$1”: occurrence $2 of $3"
+  },
+  "toastAnalysis": {
+    "message": "Distinct entities: $1, occurrences: $2 ($3 ms)"
+  },
+  "csvEntity": {
+    "message": "Entity"
+  },
+  "csvType": {
+    "message": "Type"
+  },
+  "csvOccurrences": {
+    "message": "Occurrences"
+  },
+  "csvPage": {
+    "message": "Page"
+  },
+  "filePrefixSel": {
+    "message": "entities_selection"
+  },
+  "filePrefixAll": {
+    "message": "entities_all"
+  }
+}

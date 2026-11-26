@@ -1,0 +1,64 @@
+/* Surlignage des entités nommées (injecté dans la page analysée) */
+nerx-mark {
+  display: inline !important;
+  border-radius: 3px !important;
+  padding: 0 1px !important;
+  color: #111 !important;
+  -webkit-box-decoration-break: clone !important;
+  box-decoration-break: clone !important;
+  transition: outline-color .3s, background-color .2s !important;
+  outline: 2px solid transparent !important;
+}
+nerx-mark[data-nerx-type="person"] { background-color: rgba(255, 233, 77, .9) !important; }
+nerx-mark[data-nerx-type="work"]   { background-color: rgba(255, 123, 239, .75) !important; }
+nerx-mark[data-nerx-type="org"]    { background-color: rgba(126, 224, 138, .85) !important; }
+nerx-mark[data-nerx-type="place"]  { background-color: rgba(140, 203, 255, .9) !important; }
+nerx-mark[data-nerx-type="event"]  { background-color: rgba(255, 179, 92, .9) !important; }
+nerx-mark[data-nerx-type="date"]   { background-color: rgba(205, 187, 255, .9) !important; }
+nerx-mark[data-nerx-type="other"]  { background-color: rgba(212, 212, 212, .9) !important; }
+
+nerx-mark.nerx-flash { outline-color: #e5004f !important; }
+
+/* Coche placée après chaque entité */
+input.nerx-cb {
+  all: revert !important;
+  -webkit-appearance: checkbox !important;
+  appearance: auto !important;
+  display: inline-block !important;
+  position: static !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  width: 13px !important;
+  height: 13px !important;
+  min-width: 0 !important;
+  margin: 0 3px 0 2px !important;
+  padding: 0 !important;
+  vertical-align: -2px !important;
+  cursor: pointer !important;
+  accent-color: #c2185b !important;
+  transform: none !important;
+  float: none !important;
+}
+
+/* Types masqués (décochés dans les paramètres) */
+html.nerx-off-person nerx-mark[data-nerx-type="person"],
+html.nerx-off-work nerx-mark[data-nerx-type="work"],
+html.nerx-off-org nerx-mark[data-nerx-type="org"],
+html.nerx-off-place nerx-mark[data-nerx-type="place"],
+html.nerx-off-event nerx-mark[data-nerx-type="event"],
+html.nerx-off-date nerx-mark[data-nerx-type="date"],
+html.nerx-off-other nerx-mark[data-nerx-type="other"] {
+  background: none !important;
+  color: inherit !important;
+  padding: 0 !important;
+}
+html.nerx-off-person input.nerx-cb[data-nerx-type="person"],
+html.nerx-off-work input.nerx-cb[data-nerx-type="work"],
+html.nerx-off-org input.nerx-cb[data-nerx-type="org"],
+html.nerx-off-place input.nerx-cb[data-nerx-type="place"],
+html.nerx-off-event input.nerx-cb[data-nerx-type="event"],
+html.nerx-off-date input.nerx-cb[data-nerx-type="date"],
+html.nerx-off-other input.nerx-cb[data-nerx-type="other"],
+html.nerx-hide-cb input.nerx-cb {
+  display: none !important;
+}
